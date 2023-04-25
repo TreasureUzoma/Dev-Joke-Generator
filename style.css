@@ -1,0 +1,38 @@
+body {
+   background-color:#2e2e2e;
+   color:white;
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Indie Flower;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+#joke-container {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border:1px solid white;
+  min-height:90px;
+  border-radius:15px;
+  padding:40px;
+}
+
+#joke-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #FFD700;
+  color: #FFF;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#joke-button:hover {
+  background-color: #FFB800;
+}
