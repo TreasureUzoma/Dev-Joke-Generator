@@ -1,38 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap");
+
 body {
-   background-color:#2e2e2e;
-   color:white;
+    background-color: #e41b23;
+}
+
+main {
+    min-height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container {
-  text-align: center;
-  margin-top: 50px;
-  font-family: Indie Flower;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #fff;
 }
 
-h1 {
-  font-size: 3rem;
-  margin-bottom: 30px;
+h2 {
+    font-size: 1.5rem;
+    font-family: Poppins;
+    margin-bottom: 12px;
 }
-
 #joke-container {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  border:1px solid white;
-  min-height:90px;
-  border-radius:15px;
-  padding:40px;
+    font-size: 1.4rem;
+    font-family: Anonymous Pro;
+    border-radius: 15px;
+    line-height: 2rem;
+    margin: 25px 10px;
 }
 
 #joke-button {
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: none;
-  background-color: #FFD700;
-  color: #FFF;
-  font-size: 1.5rem;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e41b23;
+    color: #fff;
+    margin: 15px 0;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
 }
 
 #joke-button:hover {
-  background-color: #FFB800;
+    background-color: red;
+}
+@media (min-width: 500px) {
+    .container {
+        max-width: 70%;
+    }
 }
